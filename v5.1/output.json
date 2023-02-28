@@ -1,0 +1,33 @@
+{
+   "net_bin": "./models/people_exp0.bin",
+	"net_param": "./models/people_exp0.param",
+	"is_save_img": {
+		"is_save": 1,
+		"interval": 300
+	},
+   "label": "danger_zone",
+   "Pan": 73,
+   "Tilt": 87,
+   "Zoom": 5,
+   "Tilt_sensor": {
+      "standard_bijia_angles": 61.6, //倾角传感器所获取的臂架角度
+      "standard_cam_angle": 90,  //球机俯仰角度，与臂架角度对应
+      "standard_cam_Pans": 73,  //球机旋转角度
+      "angle_interval": 150,   //隔多少帧数获取倾角传感器数据
+      "distance_angle_threshold": 100.0,  //当臂架的角度与上次臂架的角度的差值
+      "min_Pans_people_area":{
+         "min_points_x": 0,
+         "min_points_y": 200
+      },
+      "max_Pans_people_area":{
+         "max_points_x": 1760,
+         "max_points_y": 440
+      },
+      "width_people_area": 800,
+      "heigth_people_area": 800
+   },
+   "is_read_rtsp_sign": 0,
+   "people_area_x": 1280,
+   "people_area_y": 720,
+   "area": 700
+}

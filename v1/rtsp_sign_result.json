@@ -1,0 +1,90 @@
+[
+  {
+    "sign_id": "rtsp://192.168.1.87:1554/live/test_10",
+    "rtsp_url": "rtsp://192.168.1.87:1554/live/test_10",
+    "sign_image_path": "/home/broadsense/workspace/mzd/RealTimePerceptionPlatform/deploy/config_unix/sign_image/crooked.jpg",
+    "sign_type": "Crooked",
+    "sign_data": {
+      "x": 1374,
+      "y": 1006,
+      "inner_radius": 160,
+      "outer_radius": 480
+    }
+  },
+  {
+    "sign_id": "rtsp://192.168.1.87:1554/live/test_11",
+    "rtsp_url": "rtsp://192.168.1.87:1554/live/http_test_11",
+    "sign_image_path": "/home/broadsense/workspace/mzd/RealTimePerceptionPlatform/deploy/config_unix/sign_image/danger_zone.jpg",
+    "sign_type": "DangerZone",
+    "sign_data": {
+      "start_pot": {
+        "x": 440,
+        "y": 670
+      },
+      "end_pot": {
+        "x": 586,
+        "y": 700
+      }
+    }
+  },
+  {
+    "sign_id": "rtsp://192.168.1.87:1554/live/test_00",
+    "rtsp_url": "rtsp://192.168.1.87:1554/live/test_http_00",
+    "sign_image_path": "/home/broadsense/workspace/mzd/RealTimePerceptionPlatform/deploy/config_unix/sign_image/obstacle_00.jpg",
+    "sign_type": "Obstacle",
+    "sign_data": {
+      "sign_pots": [
+        {
+          "x": 651,
+          "y": 905
+        },
+        {
+          "x": 757,
+          "y": 96
+        },
+        {
+          "x": 919,
+          "y": 106
+        },
+        {
+          "x": 1489,
+          "y": 901
+        }
+      ]
+    }
+  },
+  {
+    "sign_id": "rtsp://192.168.1.87:1554/live/test_01",
+    "rtsp_url": "rtsp://192.168.1.87:1554/live/test_http_01",
+    "sign_image_path": "/home/broadsense/workspace/mzd/RealTimePerceptionPlatform/deploy/config_unix/sign_image/obstacle_01.jpg",
+    "sign_type": "Obstacle",
+    "sign_data": {
+      "sign_pots": [
+        {
+          "x": 3,
+          "y": 439
+        },
+        {
+          "x": 604,
+          "y": 54
+        },
+        {
+          "x": 761,
+          "y": 37
+        },
+        {
+          "x": 1148,
+          "y": 908
+        },
+        {
+          "x": 1148,
+          "y": 908
+        },
+        {
+          "x": 2,
+          "y": 909
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,18 @@
+{
+   "net_bin": "./models/people_exp0.bin",
+	"net_param": "./models/people_exp0.param",
+	"is_save_img": {
+		"is_save": 1,
+		"interval": 1500
+	},
+   "label": "danger_zone",
+   "Pan": 73,
+   "Tilt": 85,
+   "Zoom": 5,
+   "origin_bijia_angle": 62.9,
+   "angle_interval": 1500,
+   "is_read_rtsp_sign": 1,
+   "people_area_x": 1280,
+   "people_area_y": 720,
+   "area": 700
+}
